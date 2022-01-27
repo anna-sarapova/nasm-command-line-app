@@ -1,0 +1,15 @@
+Assembly language used: NASM
+Virtual Machine Environment: Oracle Virtual Box
+
+1. Create a Virtual Machine with "Type" & "Version" set to "Other"
+2. Set up 2048 MB of memory size just to be sure
+3. Select the "Create a virtual disk now" option otherwise it will not work
+4. Select the "VDI" option
+5. Select "Dinamycally allocated"
+5. Set the disk size to 2Gb
+6. After creating the VM, go to its settings to the "Storage" Section
+7. Add a new storage controller, select I82078(Floppy)
+8. Add a new storage attachemnt to it
+9. Select the .img file, press "choose"
+
+10. Start the VM
